@@ -1,0 +1,143 @@
+ body {
+    margin: auto;
+    //background: rgba(9, 9, 9, 0.83);
+    background: #116466;
+    color: rgba(175, 175, 175, 0.92);
+    bottom: 70px;
+}
+
+header {
+    //background: rgba(24, 24, 24, 0.83);
+    background: #2C3531;
+    font-family: fantasy;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    text-indent: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main .table-section {
+    position: absolute;
+    top: 750px;
+    left: 150px;
+    border: 40px;
+    padding-bottom: 100px;
+}
+
+main .table-section #result-table {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 900px;
+    border: 1px solid black;
+}
+
+#result-table tr:first-of-type {
+    background: rgba(0, 0, 0, 0.83);
+}
+
+#result-table td, th {
+    padding: 3px;
+}
+
+main .form {
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    //background: rgba(25, 25, 25, 0.83);
+    background: #d9b08c;
+    //background: #ffcb9a;
+    border-radius: 20px 20px 20px 20px;
+}
+
+main .form .y-value {
+    margin: 16px;
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+
+main .form .y-value label{
+    color: #374785;
+}
+
+main .form .y-value #y-value {
+    width: 145px;
+}
+
+main .form .x-value {
+    margin: 16px;
+    position: relative;
+    top: 25px;
+    left: 70px;
+    width: 350px;
+}
+
+main .form .x-value label{
+    color: #374785;
+}
+
+main .form .r-value {
+    margin: 16px;
+    position: relative;
+    top: 35px;
+    left: 70px;
+}
+
+main .form .r-value label{
+    color: #374785;
+}
+
+main .form .x-value .x-error-message {
+    margin: 15px;
+    position: relative;
+    top: -15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-size: 15px;
+}
+
+main .form .y-value .y-error-message {
+    margin: 15px;
+    position: relative;
+    top: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    color: red;
+    font-size: 15px;
+}
+
+main img {
+    stroke: rgba(175, 175, 175, 0.92);
+    fill: rgba(175, 175, 175, 0.92);
+    position: absolute;
+    left: 160px;
+    top: 240px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border-radius: 20px 20px 20px 20px;
+    width:320px;
+}
+
+main .form .submit {
+    position: relative;
+    left: 120px;
+    top: 40px;
+    color: whitesmoke;
+    background: rgba(49, 49, 49, 0.83);
+    width: 150px;
+    height: 30px;
+}
+
+main .input-label {
+    color: #474747;
+}

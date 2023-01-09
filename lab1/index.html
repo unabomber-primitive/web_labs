@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Web1 Lab</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/onloadscript.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <span>Prokopiy Zhdanok</span>
+            <span>P32102</span>
+            <span>Variant 1507</span>
+        </div>
+    </header>
+
+    <main>
+
+        <img src="pic.png">
+
+        <form class="form" id="form" onsubmit="start(); return false;" method="post">
+
+            <div class="x-value">
+                <label for="x-value" class="input-label"><b>Значение X:</b></label><br><br>
+                <div class="checkboxes">
+                <input type="checkbox" name="x_value" value=-5>
+                <label for="x-m5-option">-5 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=-4>
+                <label for="x-m4-option">-4 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=-3>
+                <label for="x-m3-option">-3 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=-2>
+                <label for="x-m2-option">-2 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=-1>
+                <label for="x-m1-option">-1 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=0>
+                <label for="x-0-option">0 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=1>
+                <label for="x-1-option">1 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=2>
+                <label for="x-2-option">2 &nbsp;</label>
+                <input type="checkbox" name="x_value" value=3>
+                <label for="x-3-option">3 &nbsp;</label>
+                </div>
+                <div class="x-error-message" style="height: 18px; margin-top: 23px;"></div>
+            </div>
+
+            <div class="y-value">
+                <label for="y-value" class="input-label"><b>Значение Y в промежутке (-3...5):</b></label><br><br>
+                <input type="text" id="y_value" name="y_value" placeholder="Введите координату Y">
+                <div class="y-error-message" style="height: 18px; margin-top: 23px;"></div>
+            </div>
+
+            <div class="r-value">
+                <label for="r-value" class="input-label"><b>Значение R:</b></label><br><br>
+                <div class="radios">
+                <input required="required" name="r_value" id="r1" type="radio" value="1" />
+                <label for="r1">1</label>
+                <input required="required" name="r_value" id="r2" type="radio" value="1.5" />
+                <label for="r2">1.5</label>
+                <input required="required" name="r_value" id="r3" type="radio" value="2" />
+                <label for="r3">2</label>
+                <input required="required" name="r_value" id="r4" type="radio" value="2.5" />
+                <label for="r4">2.5</label>
+                <input required="required" name="r_value" id="r5" type="radio" value="3" />
+                <label for="r5">3</label>
+                </div>
+                <div class="r-error-message" style="height: 18px; margin-top: 23px;"></div>
+            </div>
+
+            <input type="submit" value="Submit" class="submit">
+
+        <!-- <div class="r-value">
+                <label for="r-value" class="input-label">Значение R:</label><br><br>
+                <div class="checkboxes">
+                <input type="checkbox" id="r-1-option" name="r_value" value="1">
+                <label for="r-1-option">1 &nbsp;</label>
+                <input type="checkbox" id="r-1.5-option" name="r_value" value="1.5">
+                <label for="r-1.5-option">1.5 &nbsp;</label>
+                <input type="checkbox" id="r-2-option" name="r_value" value="2">
+                <label for="r-2-option">2 &nbsp;</label>
+                <input type="checkbox" id="r-2.5-option" name="r_value" value="2.5">
+                <label for="r-2.5-option">2.5 &nbsp;</label>
+                <input type="checkbox" id="r-3-option" name="r_value" value="3">
+                <label for="r-3-option">3 &nbsp;</label>
+                </div>
+        </div>-->
+
+        </form>
+
+        <div class="table-section">
+            <table id="result-table">
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>R</th>
+                    <th>Текущее время</th>
+                    <th>Время выполнения</th>
+                    <th>Результат</th>
+                </tr>
+            </table>
+        </div>
+
+
+    </main>
+</body>
+</html>
