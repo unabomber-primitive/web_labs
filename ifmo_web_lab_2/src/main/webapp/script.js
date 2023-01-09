@@ -88,3 +88,7 @@ function printError(message) {
     alrt.text(message);
 }
 
+function clearError() {
+    $('#alert').empty();
+}
+

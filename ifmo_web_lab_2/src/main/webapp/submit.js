@@ -56,6 +56,7 @@ function sendClick(x, y, r) {
 }
 
 function validateForm(x, y, r) {
+    clearError();
     let flag = false;
     if (isNaN(x)) 
         printError("Пожалуйста введите корректный X");
