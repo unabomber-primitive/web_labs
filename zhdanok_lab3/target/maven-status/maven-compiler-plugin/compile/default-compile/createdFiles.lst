@@ -1,0 +1,8 @@
+com/prokop/beans/ClientBean.class
+com/prokop/beans/Service.class
+com/prokop/utils/AreaCheck.class
+com/prokop/beans/Coordinates.class
+com/prokop/db/HitResult.class
+com/prokop/utils/Bounds.class
+com/prokop/db/DataBaseController.class
+com/prokop/utils/CoordinatesValidation.class
